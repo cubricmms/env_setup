@@ -1,8 +1,4 @@
-deb http://mirrors.tencentyun.com/ubuntu/ bionic main universe restricted multiverse
-deb http://mirrors.tencentyun.com/ubuntu/ bionic-security main universe restricted multiverse
-deb http://mirrors.tencentyun.com/ubuntu/ bionic-updates main universe restricted multiverse
-deb http://mirrors.tencentyun.com/ubuntu/ bionic-backports main universe restricted multiverse
-#deb-src http://mirrors.tencentyun.com/ubuntu/ bionic main universe restricted multiverse
-#deb-src http://mirrors.tencentyun.com/ubuntu/ bionic-security main universe restricted multiverse
-#deb-src http://mirrors.tencentyun.com/ubuntu/ bionic-updates main universe restricted multiverse
-#deb-src http://mirrors.tencentyun.com/ubuntu/ bionic-backports main universe restricted multiverse
+deb http://mirrors.tencentyun.com/{OS}/ {CODENAME} main universe restricted multiverse
+deb http://mirrors.tencentyun.com/{OS}/ {CODENAME}-security main universe restricted multiverse
+#deb-src http://mirrors.tencentyun.com/{OS}/ {CODENAME} main universe restricted multiverse
+#deb-src http://mirrors.tencentyun.com/{OS}/ {CODENAME}-security main universe restricted multiverse
